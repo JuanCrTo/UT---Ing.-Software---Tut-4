@@ -67,12 +67,12 @@ const questionsAndAnswers: Question[] = [
       <>
         Los principales atributos de calidad del software, como IWeb (o
         cualquier WebApp), suelen incluir:<br /><br />
-        <span>Usabilidad:</span> Qué tan fácil es para los usuarios navegar y utilizar el software.<br /><br />
-        <span>Rendimiento:</span> La velocidad y eficiencia con la que el software realiza las tareas. <br /><br />
-        <span>Seguridad:</span> Protección contra accesos no autorizados y ataques. <br /><br />
-        <span>Escalabilidad:</span> Capacidad de crecer y manejar un mayor número de usuarios. <br /><br />
-        <span>Compatibilidad:</span> Qué tan bien se ejecuta en diferentes dispositivos y navegadores. <br /><br />
-        <span>Mantenibilidad:</span> Facilidad para actualizar y corregir errores.
+        <li><span>Usabilidad:</span> Qué tan fácil es para los usuarios navegar y utilizar el software.</li>
+        <li><span>Rendimiento:</span> La velocidad y eficiencia con la que el software realiza las tareas.</li>
+        <li><span>Seguridad:</span> Protección contra accesos no autorizados y ataques.</li>
+        <li><span>Escalabilidad:</span> Capacidad de crecer y manejar un mayor número de usuarios.</li>
+        <li><span>Compatibilidad:</span> Qué tan bien se ejecuta en diferentes dispositivos y navegadores.</li>
+        <li><span>Mantenibilidad:</span> Facilidad para actualizar y corregir errores.</li>        
       </>
     ),
   },
@@ -98,16 +98,20 @@ const questionsAndAnswers: Question[] = [
   },
   {
     question:
-      "g) ¿Cuáles son los principales atributos de calidad del software IWeb?",
+      "g) ¿Cuáles son las actividades de SQA?",
     answer: (
       <>
         Las actividades de SQA incluyen:<br /><br />
-        <span> Revisiones de código</span> y auditorías. <br /><br />
-        <span>Pruebas de software</span> (unitarias, de integración, de sistema). <br /><br />
-        <span>Monitoreo de procesos de desarrollo</span> para asegurarse de que se sigan los estándares de calidad. <br /><br />
-        <span>Mantenimiento de registros</span> y generación de informes de calidad. <br /><br />
-        <span>Gestión de riesgos</span> y validación de procesos. <br /><br />
-        <span>Evaluación continua</span> de los procesos y productos para identificar y corregir errores antes de la liberación del software.
+        <li><span>Estándares:</span> Definir procedimientos de calidad.</li>
+        <li><span>Requisitos:</span> Revisar claridad y verificabilidad.</li>
+        <li><span>Planificación:</span> Establecer objetivos de calidad.</li>
+        <li><span>Revisiones:</span> Evaluar documentos y entregables.</li>
+        <li><span>Pruebas:</span> Detectar defectos en el software.</li>
+        <li><span>Gestión de Defectos:</span> Registrar y seguir defectos.</li>
+        <li><span>Métricas:</span> Analizar indicadores de calidad.</li>
+        <li><span>Formación:</span> Capacitar al equipo en calidad.</li>
+        <li><span>Proveedores:</span> Evaluar software de terceros.</li>
+        <li><span>Mejora Continua:</span> Implementar mejoras basadas en retroalimentación.</li>
       </>
     ),
   },
@@ -135,21 +139,30 @@ const questionsAndAnswers: Question[] = [
     answer: (
       <>
         La norma ISO/IEC 9126 define los siguientes atributos de calidad del software: <br /><br />
-        <span>Funcionalidad</span> <br />
-        <span>Fiabilidad</span> <br />
-        <span>Usabilidad</span> <br />
-        <span>Eficiencia</span> <br />
-        <span>Mantenibilidad</span> <br />
-        <span>Portabilidad</span> <br />
+        <li><span>Funcionalidad</span></li>
+        <li><span>Fiabilidad</span></li>
+        <li><span>Usabilidad</span></li>
+        <li><span>Eficiencia</span></li>
+        <li><span>Mantenibilidad</span></li>
+        <li><span>Portabilidad</span></li>
       </>
     ),
   },
   {
     question:
-      "k) Empresas certificadoras de calidad de software y empresas certificadas en Colombia",
+      "k) Mencione dos empresas certificadoras de calidad de software y dos empresas actualmente certificadas en Colombia (existe alguna empresa tolimense con certificación de calidad?)",
     answer: (
       <>
-        Dos ejemplos de empresas certificadoras son <span>Bureau Veritas</span> y <span>SGS</span>. Empresas certificadas en calidad en Colombia incluyen <span>Siesa</span> y <span>Compunet</span>. En Tolima, algunas empresas pueden tener certificaciones, pero requieren búsqueda específica sobre empresas regionales.
+        <span>Empresas Certificadoras de Calidad de Software</span>
+        <li>ISO (Organización Internacional de Normalización): Proporciona certificaciones para estándares de calidad como ISO 9001 e ISO/IEC 25010.</li>
+        <li>CMMI Institute: Ofrece certificaciones para el modelo de madurez CMMI, que ayuda a las organizaciones a mejorar sus procesos.</li>
+
+        <br /><span>Empresas Certificadas en Colombia</span>
+        <li>Sofka Technologies: Certificada en ISO 9001, se especializa en desarrollo de software y soluciones tecnológicas.</li>
+        <li>Bancolombia: También cuenta con certificaciones de calidad, incluidas normas ISO en varios de sus procesos.</li>        
+
+        <br /><span>Empresas en Tolima con Certificación de Calidad</span><br />
+        En el departamento del Tolima, Inalambrica S.A.S. es una empresa que cuenta con certificaciones de calidad, específicamente ISO 9001, que avala sus procesos de gestión.
       </>
     ),
   },
@@ -159,11 +172,11 @@ const questionsAndAnswers: Question[] = [
     answer: (
       <>
         Los requisitos incluyen: <br /><br />
-        <span>Documentación de procesos.</span> <br />
-        <span>Mejora continua.</span> <br />
-        <span>Auditorías internas.</span> <br />
-        <span>Evaluación de satisfacción del cliente.</span> <br />
-        <span>Gestión de recursos.</span> <br />
+        <li><span>Documentación de procesos.</span></li>
+        <li><span>Mejora continua.</span></li>
+        <li><span>Auditorías internas.</span></li>
+        <li><span>Evaluación de satisfacción del cliente.</span></li>
+        <li><span>Gestión de recursos.</span></li>
       </>
     ),
   },
@@ -185,10 +198,10 @@ const questionsAndAnswers: Question[] = [
     answer: (
       <>
         Estas métricas se enfocan en evaluar características de los sistemas orientados a objetos, como: <br /><br />
-        <span>Número de clases y objetos.</span> <br />
-        <span>Acoplamiento entre objetos.</span> <br />
-        <span>Cohesión de las clases.</span> <br />
-        <span>Profundidad del árbol de herencia.</span> <br />
+        <li><span>Número de clases y objetos.</span></li>
+        <li><span>Acoplamiento entre objetos.</span></li>
+        <li><span>Cohesión de las clases.</span></li>
+        <li><span>Profundidad del árbol de herencia.</span></li>
       </>
     ),
   },
@@ -198,10 +211,10 @@ const questionsAndAnswers: Question[] = [
     answer: (
       <>
         Sí, se pueden aplicar métricas como: <br /><br />
-        <span>Rendimiento:</span> Velocidad y eficiencia de la app.<br />
-        <span>Experiencia del usuario</span> (UX).<br />
-        <span>Consumo de batería.</span> <br />
-        <span>Compatibilidad con dispositivos móviles.</span> <br />
+        <li><span>Rendimiento:</span> Velocidad y eficiencia de la app.</li>
+        <li><span>Experiencia del usuario</span> (UX).</li>
+        <li><span>Consumo de batería.</span></li>
+        <li><span>Compatibilidad con dispositivos móviles.</span></li>
       </>
     ),
   },
@@ -211,6 +224,24 @@ const questionsAndAnswers: Question[] = [
     answer: (
       <>
         Una de las técnicas más utilizadas es la <span>Revisión Técnica Formal</span> (RTF) junto con <span>pruebas automatizadas</span> y <span>auditorías internas</span> para asegurar que el software cumpla con los estándares de calidad establecidos.
+      </>
+    ),
+  },
+  {
+    question:
+      "q) Modelos y Estándares de Calidad del Software",
+    answer: (
+      <>
+        <span>Modelos de Proceso</span>
+        <li>CMMI: Mejora de procesos con niveles de madurez.</li>
+        
+        <li>SPICE: Evaluación de procesos de software.</li>
+        <li>Agile: Enfoque iterativo y colaborativo.</li> <br />
+
+        <span>Modelos de Producto</span>
+        <li>ISO/IEC 25010: Evaluación de características de calidad.</li>
+        <li>COSMIC: Medición de funcionalidad.</li>
+        <li>FURPS: Calidad en funcionalidad y usabilidad.</li>
       </>
     ),
   },
