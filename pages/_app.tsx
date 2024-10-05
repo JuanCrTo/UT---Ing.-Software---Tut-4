@@ -1,6 +1,12 @@
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+import React from 'react';
+import Questionnaire from '@/components/Questionnaire';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
-}
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <Questionnaire />
+    </div>
+  );
+};
+
+export default App;
